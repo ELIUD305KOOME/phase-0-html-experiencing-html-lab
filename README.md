@@ -42,13 +42,13 @@ Code.
 Below is a collection of plant names.
 Copy and paste the plants into your `my_list.txt` file.
 
-```text
+"
+``````text
 "Monstera Deliciosa"
 "Fiddle Leaf Fig"
 "Pilea"
 "Golden Pothos"
-"Peace Lily"
-```
+"Peace Lily
 
 The material we typed into the file is called the _content_. It's the thing
 we're trying to communicate.
@@ -209,12 +209,7 @@ Let's introduce our list by adding some background:
 
 ```html
 <p>Some of my favorite plants!</p>
-<ul>
-  <li>"Monstera deliciosa"</li>
-  <li>"Fiddle Leaf Fig"</li>
-  <li>"Pilea"</li>
-  <li>"Golden Pothos"</li>
-  <li>"Peace Lily"</li>
+y"</li>
 </ul>
 ```
 
@@ -226,7 +221,12 @@ Take a look at your "rendered page" and verify the result is to your liking.
 
 Lastly, let's put a "heading" on the top of our document. Add an `h1` element
 with an appropriate title inside.
-
+<ul>
+  <li>"Monstera deliciosa"</li>
+  <li>"Fiddle Leaf Fig"</li>
+  <li>"Pilea"</li>
+  <li>"Golden Pothos"</li>
+  <li>"Peace Lil
 ```html
 <h1>My Plant List</h1>
 ```
